@@ -1,0 +1,23 @@
+# Ключі й паролі. Не повинні потрапити в git ні за яких умов.
+*.dat
+*.jks
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+.env
+config.toml
+config.local.toml
+
+# Отримані дані персональні
+fop_info.json
+output/
+*.xml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
